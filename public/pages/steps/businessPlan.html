@@ -1,0 +1,22 @@
+<div id="businessPlan">
+	<h2>Business Plan</h2>
+	<div>
+		<h4>The business plan should provide details in ppt format</h4>
+		<ul>
+			<li>Corporate profile namely customer base/ key strength</li>
+			<li>Organization strength in terms of SAP focus personnel</li>
+			<li>Addressable market / market potentials</li>
+			<li>Sales Strategy, Revenue / number of deals target for next 3 years – 2012 ( by quarters) , next two years (yearly)</li>
+			<li>Demand generations strategy and execution plan</li>
+			<li>Resourcing plan (FTE for sales / presales)</li>
+		</ul>
+	</div>
+	<form class="form-inline upload" method="POST" enctype="multipart/form-data" action="/postDoc" target="fileFrame" role="form">
+		<div style='margin-bottom:10px;'>Step 1: <input type="file" id='uploadFile' name="data" style="display:inline-block"/></div>
+		<div>Step 2: <button type="submit" id='submitFile' class="btn btn-primary btn-sm">Upload</button></div>
+		<input type='hidden' name='type' value='businessPlan' />
+	</form>
+	<iframe id="fileFrame" name='fileFrame' style="width:0px;height:0px;border:0px"></iframe>
+	<div class='fileList'></div>
+	<div class='commentList'></div>
+</div>

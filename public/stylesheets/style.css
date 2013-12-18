@@ -1,0 +1,135 @@
+body {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    background: url("data:image/gif;base64,R0lGODlhAwADAJEAAHh4eIeHh3d3d4iIiCH5BAAAAAAALAAAAAADAAMAAAIFzDCSEwUAOw==") repeat scroll 0 0 #878787;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.clear{
+	clear: both;
+}
+.left{
+	float: left;
+}
+.top{
+	border-bottom: 10px solid #f0ab00;	
+	position: relative;
+	width: 100%;
+	height: 60px;
+	background-image: url(/images/header_background.png);
+	background-repeat: repeat-x;
+	color: #fff;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.sap_logo{
+	background-image: url(/images/icon-sprite.png);
+	background-repeat: no-repeat;
+	background-position: 0 -32px;
+	height: 32px;
+	width: 64px;
+	display: block;
+	float: left;
+}
+.top_title{
+	display: block;
+	margin-top: 5px;
+	float: left;
+	font-size: 20px;
+}
+.top .project_name{
+	display: block;
+	float: right;
+	margin-right: 10px;
+	margin-top: 8px;
+	font-size: 16px;
+}
+.content{
+	background-color: #fff;
+	min-height: 700px;
+}
+.projects{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	
+}
+.toolbar{
+	background-color: #eee;
+	height: 40px;
+	width: 100%;
+}
+
+.step_tree{
+	float: left;
+	width: 33%;
+	min-height: 700px;
+}
+.step_detail{
+	float: left;
+	width: 67%;
+	height: 700px;
+	border-left: 2px solid #ccc;
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: auto;
+}
+.step_detail h2{
+	padding-bottom: 10px;
+	border-bottom: 2px solid #ccc;
+}
+.list-group{
+	margin-bottom: 0px;
+}
+
+/*icon*/
+.add_project{
+	background-image: url(/images/add.png);
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 16px;
+	display: block;
+	float: left;
+	margin-top: 12px;
+	margin-left: 12px;
+	cursor: pointer;
+}
+.go_home{
+	background-image: url(/images/home.png);
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 16px;
+	display: block;
+	float: left;
+	margin-top: 12px;
+	margin-left: 12px;
+	cursor: pointer;
+}
+
+.tmplDiv{
+	float: left;
+	margin-right: 10px;
+}
+.file32{
+	display: block;
+	width: 32px;
+	height: 32px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.file32.ppt{
+	background: url('/images/ppt_file_32.png');
+}
+.file32.pdf{
+	background: url('/images/pdf_file_32.png');
+}
+a.list-group-item.complete{
+	background-image: url('/images/success.png');
+	background-position: 280px 10px;
+	background-repeat: no-repeat;
+}
+.form-inline.upload{
+	margin-top: 20px;
+}

@@ -1,0 +1,14 @@
+<div id="demoScenarios">
+	<h2>Demo Scenarios</h2>
+	<div>
+		<h4>The partner should provide demo scenarios. The minimum requirement would be to show proofpoints of their ability to demo and sell the solution. Depending on the size and credential of the partner, this can be in the form of a demo scripts, recorded demos or even a demo sessions.</h4>
+	</div>
+	<form class="form-inline upload" method="POST" enctype="multipart/form-data" action="/postDoc" target="fileFrame" role="form">
+		<div style='margin-bottom:10px;'>Step 1: <input type="file" id='uploadFile' name="data" style="display:inline-block"/></div>
+		<div>Step 2: <button type="submit" id='submitFile' class="btn btn-primary btn-sm">Upload</button></div>
+		<input type='hidden' name='type' value='demoScenarios' />
+	</form>
+	<iframe id="fileFrame" name='fileFrame' style="width:0px;height:0px;border:0px"></iframe>
+	<div class='fileList'></div>
+	<div class='commentList'></div>
+</div>

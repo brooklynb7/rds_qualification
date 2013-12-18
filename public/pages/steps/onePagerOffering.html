@@ -1,0 +1,22 @@
+<div id="onePagerOffering">
+	<h2>One Pager Offering</h2>
+	<div>
+		<h4>Partner should provide the solution scope with One-Pager with the following information</h4>
+		<ul>
+			<li>Description of the solution</li>
+			<li>Scope of the solution</li>
+			<li>Prerequisites in terms of the SAP Software component required</li>
+			<li>Cost of the implementation in local currency</li>
+			<li>Contact person</li>
+			<li>Referenceable customers / proof points</li>
+		</ul>
+	</div>
+	<form class="form-inline upload" method="POST" enctype="multipart/form-data" action="/postDoc" target="fileFrame" role="form">
+		<div style='margin-bottom:10px;'>Step 1: <input type="file" id='uploadFile' name="data" style="display:inline-block"/></div>
+		<div>Step 2: <button type="submit" id='submitFile' class="btn btn-primary btn-sm">Upload</button></div>
+		<input type='hidden' name='type' value='onePagerOffering' />
+	</form>
+	<iframe id="fileFrame" name='fileFrame' style="width:0px;height:0px;border:0px"></iframe>
+	<div class='fileList'></div>
+	<div class='commentList'></div>
+</div>

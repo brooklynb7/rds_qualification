@@ -1,0 +1,14 @@
+<div id="customerFacingBrochure">
+	<h2>Customer Facing Brochure</h2>
+	<div>
+		<h4>Customer facing brochure for demand generation providing the fix price / fix scope fulfilling the RDS brand promise of fast deployment</h4>
+	</div>
+	<form class="form-inline upload" method="POST" enctype="multipart/form-data" action="/postDoc" target="fileFrame" role="form">
+		<div style='margin-bottom:10px;'>Step 1: <input type="file" id='uploadFile' name="data" style="display:inline-block"/></div>
+		<div>Step 2: <button type="submit" id='submitFile' class="btn btn-primary btn-sm">Upload</button></div>
+		<input type='hidden' name='type' value='customerFacingBrochure' />
+	</form>
+	<iframe id="fileFrame" name='fileFrame' style="width:0px;height:0px;border:0px"></iframe>
+	<div class='fileList'></div>
+	<div class='commentList'></div>
+</div>
