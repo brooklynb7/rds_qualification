@@ -3,12 +3,19 @@
 		<span class='go_home'></span>
 	</div>
 	<div style='margin-top:10px;' class="panel-group" id="steps_tree">
-		<div class="panel panel-default">
+		<div class="panel panel-default q_gate_business_plan">
 			<div class="panel-heading">
 				<h4 class="panel-title">
-					<a data-toggle="collapse" data-parent="#steps_tree" href="#collapseOne">
-						1# Business Plan
-					</a>
+					<a data-toggle="collapse" data-parent="#steps_tree" href="#collapseOne">1# Business Plan</a>
+					<div class='q_gate_stat'>
+						<span class='label label-primary available'>availabe</span>
+						<span class='hide review'><a href='javascript:void(0);' class='apply text-primary'>apply review</a></span>
+						<span class='hide approve'>
+							<a href='javascript:void(0);' class='approve text-primary'>approve</a> | 
+							<a href='javascript:void(0);' class='reject text-primary'>reject</a>
+						</span>
+						<span class='hide pass label label-success'>pass</span>
+					</div>
 				</h4>
 			</div>
 			<div id="collapseOne" class="panel-collapse collapse in">
@@ -22,12 +29,22 @@
 			</div>
 		</div>
 
-		<div class="panel panel-default">
+		<div class="panel panel-default q_gate_evaluate_offering">
 			<div class="panel-heading">
 				<h4 class="panel-title">
 					<a data-toggle="collapse" data-parent="#steps_tree" href="#collapse2">
 						2# Evaluate Offering
 					</a>
+					<div class='q_gate_stat'>
+						<span class='label label-danger unavailable'>unavailable</span>
+						<span class='label label-primary available hide'>availabe</span>
+						<span class='hide review'><a href='javascript:void(0);' class='apply text-primary'>apply review</a></span>
+						<span class='hide approve'>
+							<a href='javascript:void(0);' class='approve text-primary'>approve</a> | 
+							<a href='javascript:void(0);' class='reject text-primary'>reject</a>
+						</span>
+						<span class='hide pass label label-success'>pass</span>
+					</div>
 				</h4>
 			</div>
 			<div id="collapse2" class="panel-collapse collapse">
@@ -42,12 +59,22 @@
 			</div>
 		</div>
 
-		<div class="panel panel-default">
+		<div class="panel panel-default q_gate_quality_gtm_asset">
 			<div class="panel-heading">
 				<h4 class="panel-title">
 					<a data-toggle="collapse" data-parent="#steps_tree" href="#collapse3">
 						3# Quality GTM Asset
 					</a>
+					<div class='q_gate_stat'>
+						<span class='label label-danger unavailable'>unavailable</span>
+						<span class='label label-primary available hide'>availabe</span>
+						<span class='hide review'><a href='javascript:void(0);' class='apply text-primary'>apply review</a></span>
+						<span class='hide approve'>
+							<a href='javascript:void(0);' class='approve text-primary'>approve</a> | 
+							<a href='javascript:void(0);' class='reject text-primary'>reject</a>
+						</span>
+						<span class='hide pass label label-success'>pass</span>
+					</div>
 				</h4>
 			</div>
 			<div id="collapse3" class="panel-collapse collapse">

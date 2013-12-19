@@ -12,6 +12,9 @@ body {
 .left{
 	float: left;
 }
+.hide{
+	display: none;
+}
 .top{
 	border-bottom: 10px solid #f0ab00;	
 	position: relative;
@@ -132,4 +135,8 @@ a.list-group-item.complete{
 }
 .form-inline.upload{
 	margin-top: 20px;
+}
+
+.q_gate_stat{
+	float: right;
 }

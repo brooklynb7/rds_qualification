@@ -13,8 +13,16 @@
 		"demo_scenarios_file": [],
 		"delivery_content_file": [],
 		"customer_facing_brochure_file": [],
-		"q_gate":{
-			"businessPlan":{}
+		"q_gates":{
+			"businessPlan":{
+				"status":1
+			},
+			"evaluateOffering":{
+				"status":0
+			},
+			"qualityGTMAsset":{
+				"status":0
+			}
 		},
 		"steps": {
 			"confirmSolutionScope": {
@@ -63,6 +71,17 @@
 		"demo_scenarios_file": [],
 		"delivery_content_file": [],
 		"customer_facing_brochure_file": [],
+		"q_gates":{
+			"businessPlan":{
+				"status":1
+			},
+			"evaluateOffering":{
+				"status":0
+			},
+			"qualityGTMAsset":{
+				"status":0
+			}
+		},
 		"steps": {
 			"confirmSolutionScope": {
 				"status": 0
@@ -96,52 +115,5 @@
 			}
 		},
 		"create_time": 1387187733333
-	},
-	"qualification_3": {
-		"id": "qualification_3",
-		"name": "Finished_Qualification",
-		"description": "Desc3......",
-		"current_step": 10,
-		"complete_steps": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-		"package": "rds",
-		"business_plan_file": [],
-		"one_pager_offering_file": [],
-		"proposal_framework_file": [],
-		"demo_scenarios_file": [],
-		"delivery_content_file": [],
-		"customer_facing_brochure_file": [],
-		"steps": {
-			"confirmSolutionScope": {
-				"status": 0
-			},
-			"businessPlan": {
-				"status": 0
-			},
-			"onePagerOffering": {
-				"status": 1
-			},
-			"proposalFramework": {
-				"status": 0
-			},
-			"demoScenarios": {
-				"status": 0
-			},
-			"solutionBrief": {
-				"status": 0
-			},
-			"deliveryContent": {
-				"status": 0
-			},
-			"ecoHubStorefront": {
-				"status": 0
-			},
-			"customerFacingBrochure": {
-				"status": 0
-			},
-			"marketingAsset": {
-				"status": 0
-			}
-		},
-		"create_time": 1387187273333
 	}
 }
