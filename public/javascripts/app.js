@@ -514,20 +514,3 @@ app.createProject = function(name, desc){
 	var $tr = app.createProjectRow(app.projects[id]);
 	$("#ongoing_projects").append($tr);
 };
-
-$(document).ready(function() {
-	var bi = new BusyIndicator($(".content"));
-	bi.show();
-	$.ajax({
-		url: "/data/projects.json",
-		type: 'GET',
-		dataType: "JSON",
-		success: function(projects){
-			app.projects = projects;
-			app.init();
-		}, 
-		complete: function(){
-			bi.hide();
-		}
-	});
-});

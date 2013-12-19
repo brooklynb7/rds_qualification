@@ -26,34 +26,44 @@
 		},
 		"steps": {
 			"confirmSolutionScope": {
-				"status": 0
+				"status": 0,
+				"comments":[]
 			},
 			"businessPlan": {
-				"status": 0
+				"status": 0,
+				"comments":[]
 			},
 			"onePagerOffering": {
-				"status": 0
+				"status": 0,
+				"comments":[]
 			},
 			"proposalFramework": {
-				"status": 0
+				"status": 0,
+				"comments":[]
 			},
 			"demoScenarios": {
-				"status": 0
+				"status": 0,
+				"comments":[]
 			},
 			"solutionBrief": {
-				"status": 0
+				"status": 0,
+				"comments":[]
 			},
 			"deliveryContent": {
-				"status": 0
+				"status": 0,
+				"comments":[]
 			},
 			"ecoHubStorefront": {
-				"status": 0
+				"status": 0,
+				"comments":[]
 			},
 			"customerFacingBrochure": {
-				"status": 0
+				"status": 0,
+				"comments":[]
 			},
 			"marketingAsset": {
-				"status": 0
+				"status": 0,
+				"comments":[]
 			}
 		},
 		"create_time": 1387187754111
@@ -84,34 +94,44 @@
 		},
 		"steps": {
 			"confirmSolutionScope": {
-				"status": 0
+				"status": 0,
+				"comments":[]
 			},
 			"businessPlan": {
-				"status": 0
+				"status": 0,
+				"comments":[]
 			},
 			"onePagerOffering": {
-				"status": 0
+				"status": 0,
+				"comments":[]
 			},
 			"proposalFramework": {
-				"status": 0
+				"status": 0,
+				"comments":[]
 			},
 			"demoScenarios": {
-				"status": 0
+				"status": 0,
+				"comments":[]
 			},
 			"solutionBrief": {
-				"status": 0
+				"status": 0,
+				"comments":[]
 			},
 			"deliveryContent": {
-				"status": 0
+				"status": 0,
+				"comments":[]
 			},
 			"ecoHubStorefront": {
-				"status": 0
+				"status": 0,
+				"comments":[]
 			},
 			"customerFacingBrochure": {
-				"status": 0
+				"status": 0,
+				"comments":[]
 			},
 			"marketingAsset": {
-				"status": 0
+				"status": 0,
+				"comments":[]
 			}
 		},
 		"create_time": 1387187733333
